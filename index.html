@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeritasAI - Fake News Detector</title>
+
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- ──────── Background Decorative Orbs ──────── -->
+    <div class="bg-orb bg-orb--1"></div>
+    <div class="bg-orb bg-orb--2"></div>
+    <div class="bg-orb bg-orb--3"></div>
+    <div class="bg-orb bg-orb--4"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- ──────── Main Container ──────── -->
+    <div class="main-container">
+        <div class="card">
+
+            <!-- Header -->
+            <div class="header">
+                <div class="header-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h1>VeritasAI</h1>
+                <p class="subtitle">AI-Powered Fake News Detection</p>
+            </div>
+
+            <!-- Tab Selector -->
+            <div class="tab-selector" id="tabSelector">
+                <button class="tab-btn active" data-tab="text" aria-label="Text input tab">
+                    <i class="fa-solid fa-align-left"></i> Text
+                </button>
+                <button class="tab-btn" data-tab="url" aria-label="Article link tab">
+                    <i class="fa-solid fa-link"></i> Article Link
+                </button>
+                <button class="tab-btn" data-tab="youtube" aria-label="YouTube link tab">
+                    <i class="fa-brands fa-youtube"></i> YouTube
+                </button>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <!-- Text Input -->
+                <textarea
+                id="textInput"
+                class="input-field"
+                placeholder="Paste the news article content or any suspicious text here to verify its authenticity..."
+                rows="5"
+            ></textarea>
+
+            <!-- Article URL Input -->
+            <input
+            type="url"
+            id="urlInput"
+            class="input-field"
+            placeholder="Paste a news article link (e.g., https://example.com/news/article)..."
+            style="display: none;"
+        >
+
+        <!-- YouTube URL Input -->
+        <input
+        type="url"
+        id="youtubeInput"
+        class="input-field"
+        placeholder="Paste a YouTube video link (e.g., https://www.youtube.com/watch?v=...)..."
+        style="display: none;"
+    >
+
+    <!-- Hint text -->
+    <div class="input-hint" id="inputHint">
+        <i class="fa-solid fa-circle-info"></i>
+        <span>Enter at least 50 characters for accurate analysis</span>
+    </div>
+
+    <!-- Error message -->
+    <div class="error-msg" id="errorMsg">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <span id="errorMsgText"></span>
+    </div>
+</div>
+
+<!-- Submit Button -->
+<button class="submit-btn" id="submitBtn" aria-label="Analyze news">
+    <span class="spinner"></span>
+    <span class="btn-text">
+        <i class="fa-solid fa-magnifying-glass"></i> Analyze News
+    </span>
+</button>
+
+<!-- Results Section (hidden by default) -->
+<div class="results-section" id="resultsSection">
+    <div class="results-inner" id="resultsInner">
+        <!-- Gauge -->
+        <div class="gauge-container" id="gaugeContainer">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle class="gauge-track" cx="100" cy="100" r="80"/>
+                <circle class="gauge-progress" id="gaugeProgress" cx="100" cy="100" r="80"/>
+            </svg>
+            <div class="gauge-center-text" id="gaugePercentText">
+                0<span class="percent-sign">%</span>
+            </div>
+        </div>
+        <!-- Verdict -->
+        <div class="verdict-badge" id="verdictBadge">Analyzing...</div>
+        <p class="verdict-description" id="verdictDescription"></p>
+        <!-- Analyze Another -->
+        <button class="analyze-another-btn" id="analyzeAnotherBtn">
+            <i class="fa-solid fa-rotate"></i> Analyze Another
+        </button>
+    </div>
+</div>
+</div>
+
+<!-- Footer Disclaimer -->
+<p class="footer-disclaimer">
+    <i class="fa-solid fa-lock"></i> This tool uses AI/ML models for detection. Results are for informational purposes only.
+</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
