@@ -1,4 +1,4 @@
-# 📰 Fake News Detector
+#  Fake News Detector
 
 > An AI-powered web app that analyzes news articles and text — via direct paste or URL — to help readers spot misinformation before they share it.
 
@@ -9,11 +9,11 @@
 
 ---
 
-## 🧠 The Problem
+##  The Problem
 
 Misinformation spreads faster than fact-checkers can keep up — especially when articles are shared as raw links with no context. Most people don't have the time or expertise to verify a claim before believing or sharing it.
 
-## 💡 Our Solution
+##  Our Solution
 
 This project lets a user paste **article text or a link**, and get back an **AI-generated credibility analysis** in seconds. Under the hood, it:
 
@@ -23,7 +23,7 @@ This project lets a user paste **article text or a link**, and get back an **AI-
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ **Paste-or-link input** — works with raw text or a news article URL
 - ✅ **AI-backed reasoning** — uses Gemini's language understanding instead of a static blacklist
@@ -34,7 +34,7 @@ This project lets a user paste **article text or a link**, and get back an **AI-
 
 ---
 
-## 🏗️ How It Works
+##  How It Works
 
 ```mermaid
 flowchart LR
@@ -51,7 +51,7 @@ flowchart LR
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer            | Technology                          |
 |-------------------|--------------------------------------|
@@ -64,7 +64,7 @@ flowchart LR
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repo
 ```bash
@@ -115,7 +115,7 @@ Visit **http://localhost:5500/index.html** in your browser. Paste an article or 
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 - Confidence scoring alongside the AI's qualitative verdict
 - Support for multiple languages
@@ -125,21 +125,23 @@ Visit **http://localhost:5500/index.html** in your browser. Paste an article or 
 
 ---
 
-## 👥 Team
+##  InventoX Team members:
 
 | Name | USN | Role |
 |------|-----|------|
-| Gagan | 1AY25IS069 | [your role, e.g. Backend & ML] |
+| 'Nikhil A' | 1AY25IS144 | [Tem lead and Design of the frontend and workflow of application] |
+| 'Gagan HM'| 1AY25IS069 | Model testing  |
+| 'Deekshith Reddy D'| `1AY25IS059` | `ppt and making record of github workflow` |
 | `[Teammate name]` | `[USN]` | `[role]` |
 | `[Teammate name]` | `[USN]` | `[role]` |
-
+| `[Teammate name]` | `[USN]` | `[role]` |
 **Course:** VTU — Information Science and Engineering, Semester 2
 **Institution:** Acharya Institute of Technology, Bengaluru
 **Project Type:** Interdisciplinary Project (IDP)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Google Gemini API](https://ai.google.dev/) for the analysis engine
 - [newspaper3k](https://github.com/codelucas/newspaper) for article extraction
