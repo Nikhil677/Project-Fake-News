@@ -25,12 +25,12 @@ This project lets a user paste **article text or a link**, and get back an **AI-
 
 ##  Features
 
-- ✅ **Paste-or-link input** — works with raw text or a news article URL
-- ✅ **AI-backed reasoning** — uses Gemini's language understanding instead of a static blacklist
-- ✅ **Automatic article scraping** — pulls clean article text from messy web pages via `newspaper3k`
-- ✅ **URL validation** — rejects malformed/unsafe links before processing (`validators`)
-- ✅ **Lightweight frontend** — plain HTML/CSS/JS, no framework overhead, loads instantly
-- ✅ **CORS-enabled API** — frontend and backend run independently, easy to extend or swap out
+-  **Paste-or-link input** — works with raw text or a news article URL
+-  **AI-backed reasoning** — uses Gemini's language understanding instead of a static blacklist
+-  **Automatic article scraping** — pulls clean article text from messy web pages via `newspaper3k`
+-  **URL validation** — rejects malformed/unsafe links before processing (`validators`)
+-  **Lightweight frontend** — plain HTML/CSS/JS, no framework overhead, loads instantly
+-  **CORS-enabled API** — frontend and backend run independently, easy to extend or swap out
 
 ---
 
