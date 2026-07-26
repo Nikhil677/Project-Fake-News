@@ -139,7 +139,9 @@ Visit **http://localhost:5500/index.html** in your browser. Paste an article or 
 ---
 
 **Course:** VTU — Information Science and Engineering, Semester 2
+
 **Institution:** Acharya Institute of Technology, Bengaluru
+
 **Project Type:** Interdisciplinary Project (IDP)
 
 ---
