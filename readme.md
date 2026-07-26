@@ -135,6 +135,9 @@ Visit **http://localhost:5500/index.html** in your browser. Paste an article or 
 | Shimsha B G | 1AY25IS218 | Frontend UI |
 | Akshitha M N | 1AY25IS018 | Frontend logic |
 | Sushmitha | 1AY25IS247 | Research & Testing |
+
+---
+
 **Course:** VTU — Information Science and Engineering, Semester 2
 **Institution:** Acharya Institute of Technology, Bengaluru
 **Project Type:** Interdisciplinary Project (IDP)
