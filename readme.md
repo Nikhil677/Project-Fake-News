@@ -111,10 +111,10 @@ Visit **http://localhost:5500/index.html** in your browser. Paste an article or 
 
 <!-- Add 2-3 screenshots or a short GIF of the app in use here -->
 `[screenshot of homepage]`
-<img width="900" height="600" alt="WhatsApp Image 2026-07-26 at 22 12 18" src="https://github.com/user-attachments/assets/c60414ee-802b-436b-8607-d6adf311df5e" />
+<img width="800" height="400" alt="WhatsApp Image 2026-07-26 at 22 12 18" src="https://github.com/user-attachments/assets/c60414ee-802b-436b-8607-d6adf311df5e" />
 
 `[screenshot of an analysis result]`
-<img width="900" height="600" alt="WhatsApp Image 2026-07-26 at 22 13 11" src="https://github.com/user-attachments/assets/392164e1-7e8e-4478-b744-a4755b079b55" />
+<img width="800" height="400" alt="WhatsApp Image 2026-07-26 at 22 13 11" src="https://github.com/user-attachments/assets/392164e1-7e8e-4478-b744-a4755b079b55" />
 
 
 
