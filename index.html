@@ -101,20 +101,41 @@
 <!-- Results Section (hidden by default) -->
 <div class="results-section" id="resultsSection">
     <div class="results-inner" id="resultsInner">
-        <!-- Gauge -->
-        <div class="gauge-container" id="gaugeContainer">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <circle class="gauge-track" cx="100" cy="100" r="80"/>
-                <circle class="gauge-progress" id="gaugeProgress" cx="100" cy="100" r="80"/>
-            </svg>
-            <div class="gauge-center-text" id="gaugePercentText">
-                0<span class="percent-sign">%</span>
-            </div>
+        <div class="results-nav" id="resultsNav">
+            <button class="mode-btn active" data-mode="ai">AI Output</button>
+            <button class="mode-btn" data-mode="ml">ML Output</button>
+            <button class="mode-btn" data-mode="combined">ML + AI</button>
         </div>
-        <!-- Verdict -->
-        <div class="verdict-badge" id="verdictBadge">Analyzing...</div>
-        <p class="verdict-description" id="verdictDescription"></p>
-        <!-- Analyze Another -->
+
+        <div class="gauge-card">
+            <div class="gauge-container" id="gaugeContainer">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="gauge-track" cx="100" cy="100" r="80"/>
+                    <circle class="gauge-progress" id="gaugeProgress" cx="100" cy="100" r="80"/>
+                </svg>
+                <div class="gauge-center-text" id="gaugePercentText">
+                    0<span class="percent-sign">%</span>
+                </div>
+            </div>
+            <div class="verdict-badge" id="verdictBadge">Analyzing...</div>
+            <p class="verdict-description" id="verdictDescription"></p>
+        </div>
+
+        <div class="results-summary" id="resultsSummary">
+            <div class="summary-pill" id="summaryVerdict">Waiting for analysis...</div>
+            <div class="summary-pill" id="summaryConfidence">Confidence: --</div>
+            <div class="summary-pill" id="summarySource">Source: --</div>
+        </div>
+
+        <div class="analysis-card">
+            <div class="analysis-header">
+                <h3>Detailed analysis</h3>
+                <button class="info-btn" id="weightsToggle">More info</button>
+            </div>
+            <div class="weights-panel" id="weightsPanel"></div>
+            <div class="analysis-output" id="analysisOutput"></div>
+        </div>
+
         <button class="analyze-another-btn" id="analyzeAnotherBtn">
             <i class="fa-solid fa-rotate"></i> Analyze Another
         </button>
