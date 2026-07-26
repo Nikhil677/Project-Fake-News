@@ -129,12 +129,12 @@ Visit **http://localhost:5500/index.html** in your browser. Paste an article or 
 
 | Name | USN | Role |
 |------|-----|------|
-| 'Nikhil A' | 1AY25IS144 | [Tem lead and Design of the frontend and workflow of application] |
-| 'Gagan HM'| 1AY25IS069 | Model testing  |
-| 'Deekshith Reddy D'| `1AY25IS059` | `ppt and making record of github workflow` |
-| `[Teammate name]` | `[USN]` | `[role]` |
-| `[Teammate name]` | `[USN]` | `[role]` |
-| `[Teammate name]` | `[USN]` | `[role]` |
+| Nikhil A | 1AY25IS144 | Team lead, AI setup and workflow of application |
+| Gagan HM | 1AY25IS069 | Backend setup |
+| Deekshith Reddy D | 1AY25IS059 | ppt and making record of github workflow |
+| Shimsha B G | 1AY25IS218 | Frontend UI |
+| Akshitha M N | 1AY25IS018 | Frontend logic |
+| Sushmitha | 1AY25IS247 | Research & Testing |
 **Course:** VTU — Information Science and Engineering, Semester 2
 **Institution:** Acharya Institute of Technology, Bengaluru
 **Project Type:** Interdisciplinary Project (IDP)
