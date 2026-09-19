@@ -130,27 +130,6 @@ Visit **http://localhost:5500/index.html** in your browser. Paste an article or 
 
 ---
 
-##  InventoX Team members:
-
-| Name | USN | Role |
-|------|-----|------|
-| Nikhil A | 1AY25IS144 | Team lead, AI setup and workflow of application |
-| Gagan HM | 1AY25IS069 | Backend setup |
-| Deekshith Reddy D | 1AY25IS059 | PPT & Making record of github workflow |
-| Shimsha B G | 1AY25IS218 | Frontend UI |
-| Akshitha M N | 1AY25IS018 | Frontend logic |
-| Sushmitha | 1AY25IS247 | Research & Testing |
-
----
-
-**Course:** VTU — Information Science and Engineering, Semester 2
-
-**Institution:** Acharya Institute of Technology, Bengaluru
-
-**Project Type:** Interdisciplinary Project (IDP)
-
----
-
 ##  Acknowledgments
 
 - [Google Gemini API](https://ai.google.dev/) for the analysis engine
